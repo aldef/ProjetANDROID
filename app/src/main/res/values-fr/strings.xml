@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="create_pojo_button_text">Créer un Pojo</string>
+    <string name="view_pojos_button_text">Voir les Pojos</string>
+    <string name="pojo_name_hint_text">Nom du Pojo</string>
+    <string name="pojo_description_hint_text">Description du Pojo</string>
+    <string name="save_button_text">Sauvegarder</string>
+    <string name="pojos_list_title_text">Liste des Pojos</string>
+</resources>

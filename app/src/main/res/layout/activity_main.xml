@@ -6,13 +6,26 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <Button
+        android:id="@+id/createPojoMainButton"
+        android:layout_width="220dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="182dp"
+        android:layout_marginBottom="15dp"
+        android:text="@string/create_pojo_button_text"
+        app:layout_constraintBottom_toTopOf="@+id/viewPojosMainButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/viewPojosMainButton"
+        android:layout_width="218dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="406dp"
+        android:text="@string/view_pojos_button_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/createPojoMainButton" />
 </androidx.constraintlayout.widget.ConstraintLayout>
