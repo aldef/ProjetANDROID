@@ -1,8 +1,18 @@
 <resources>
+    <string name="app_name">ANDROIDProject</string>
     <string name="create_pojo_button_text">Create Pojo</string>
     <string name="view_pojos_button_text">View Pojos</string>
-    <string name="pojo_name_hint_text">Pojo Name</string>
-    <string name="pojo_description_hint_text">Pojo Description</string>
+
+    <string name="pojo_name_hint_text">Contact Name</string>
+    <string name="pojo_phonenumber_hint_text">Phone Number</string>
+    <string name="pojo_email_hint_text">Email</string>
+    <string name="pojo_address_hint_text">Adress</string>
+    <string name="pojo_company_hint_text">Company</string>
     <string name="save_button_text">Save</string>
+    <string name="savedcontact_alert">Saved contact.</string>
+
+    <string name="back_button_text">Back</string>
+
     <string name="pojos_list_title_text">Pojos List</string>
+
 </resources>

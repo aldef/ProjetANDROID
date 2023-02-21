@@ -3,8 +3,17 @@
     <string name="app_name">ProjetANDROID</string>
     <string name="create_pojo_button_text">Créer un Pojo</string>
     <string name="view_pojos_button_text">Voir les Pojos</string>
-    <string name="pojo_name_hint_text">Nom du Pojo</string>
-    <string name="pojo_description_hint_text">Description du Pojo</string>
+
+
+    <string name="pojo_name_hint_text">Nom du contact</string>
+    <string name="pojo_phonenumber_hint_text">Numéro de téléphone</string>
+    <string name="pojo_email_hint_text">E-mail</string>
+    <string name="pojo_address_hint_text">Adresse</string>
+    <string name="pojo_company_hint_text">Entreprise</string>
     <string name="save_button_text">Sauvegarder</string>
+    <string name="savedcontact_alert">Contact enregistré.</string>
+
+    <string name="back_button_text">Retour</string>
+
     <string name="pojos_list_title_text">Liste des Pojos</string>
 </resources>
