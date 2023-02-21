@@ -22,6 +22,7 @@ public class Contact implements Serializable {
         this.company = company;
     }
 
+
     public String getName() {
         return name;
     }
@@ -42,4 +43,8 @@ public class Contact implements Serializable {
         return company;
     }
 
+    @Override
+    public String toString() {
+        return name + ", " + phoneNumber + ", " + email + ", " + address + ", " + company;
+    }
 }
