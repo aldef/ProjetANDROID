@@ -16,6 +16,9 @@ public class CreatePojoActivity extends AppCompatActivity {
     private EditText addressEditText;
     private EditText companyEditText;
 
+    //Les chmaps de textes sont récupérés pour instancier un nouvel objet Contact
+    //Ce même objet est ensuite renvoyé à l'activité principale
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

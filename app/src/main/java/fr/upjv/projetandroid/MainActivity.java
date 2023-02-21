@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //Evênement OnClick du Bouton pour l'activité Création de contact
         Button createPojoButton = findViewById(R.id.createPojoMainButton);
         createPojoButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -34,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //Evènement OnClick du Bouton pour l'activité Afficher les contacts
         Button viewPojosButton = findViewById(R.id.viewPojosMainButton);
         viewPojosButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -45,6 +47,8 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    //Launcher d'activité pour l'activité Création de contact
+    //Si l'activité renvoie Ok, alors l'utilisateur a enregistré un nouveau contact que l'on doit ajouter à la liste
     private ActivityResultLauncher<Intent> addContactLauncher = registerForActivityResult(
             new ActivityResultContracts.StartActivityForResult(),
             new ActivityResultCallback<ActivityResult>() {

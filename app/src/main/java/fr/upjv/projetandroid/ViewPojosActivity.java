@@ -15,6 +15,7 @@ public class ViewPojosActivity extends AppCompatActivity {
 
     private ArrayList<Contact> contacts;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,6 +24,7 @@ public class ViewPojosActivity extends AppCompatActivity {
         Intent intent = getIntent();
         contacts = (ArrayList<Contact>)intent.getSerializableExtra("pojoList");
 
+        //Les évènements sont récupérés sous forme de chaines de caractère (ToString()) et ajoutés dans la ListView
         ListView listView = findViewById(R.id.list_view);
         ArrayAdapter<Contact> adapter = new ArrayAdapter<Contact>(this, android.R.layout.simple_list_item_1, contacts);
         listView.setAdapter(adapter);
